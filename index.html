@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Text Läsaren</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Text Läsaren</h1>
+      <button id="toggle" class="btn btn-toggle">Välj</button>
+      <div id="text-box" class="text-box">
+        <div class="boxHeader">
+          <div id="close" class="close">X</div>
+          <h3>Välj Talare</h3>
+        </div>
+        <select id="voices"></select>
+        <textarea id="text" placeholder="Skriv text för att läsa..."></textarea>
+        <button id="read" class="btn">Läs Text</button>
+      </div>
+      <main></main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
